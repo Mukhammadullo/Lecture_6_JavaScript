@@ -43,3 +43,32 @@ console.log(forTxt); //Output:
 let forTxt=document.querySelector("h1")
 console.log(forTxt); //Output:
 ```
+
+> ### _innerHTML-innerHTML is a property in JavaScript that allows you to get or set the HTML content inside an element. It's a convenient way to access or modify the HTML within an element using JavaScript.-InnerHTML — это свойство JavaScript, которое позволяет получать или устанавливать HTML-содержимое внутри элемента. Это удобный способ получить доступ к HTML-коду элемента или изменить его с помощью JavaScript._
+
+```js
+
+//HTML
+<h1>Hello in HTML</h1>
+
+//JS
+let txt=documnet.querySelector("h1")
+txt.innerHTML="Bye"
+console.log(txt) //Output:Bye
+
+```
+
+> ### _Styling DOM Element_
+
+```js
+
+//HTML
+<h1>Style in HTML</h1>
+
+//JS
+let txt=document.querySelector("h1")
+txt.style.color="red"
+
+//output: h1->color red
+```
+
