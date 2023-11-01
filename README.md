@@ -9,4 +9,37 @@
 > * JavaScript can remove existing HTML elements and attributes.-JavaScript может удалять существующие элементы и атрибуты HTML.
 > * JavaScript can add new HTML elements and attributes.-JavaScript может добавлять новые элементы и атрибуты HTML.
 > * JavaScript can respond to all existing HTML events on the page.-JavaScript может реагировать на все существующие HTML-события на странице.
-> * JavaScript can fire new HTML events on a page.-JavaScript может запускать новые события HTML на странице
+> * JavaScript can fire new HTML events on a page.-JavaScript может запускать новые события HTML на странице.
+
+> ### _querySelector-The querySelector() method returns the first child element that matches a specified CSS selector(s) of an element, querySelectorAll() method can be used to access all elements which match with a specified CSS selector._
+
+
+```js && html
+
+//1-with className
+//HTML
+<h1 class="txt">Text in HTML</h1>
+
+//JS
+let forTxt=document.querySelector(".txt")
+console.log(forTxt); //Output:
+
+
+//2-with idName
+//HTML
+<h1 id="txt">Text in HTML</h1>
+
+//JS
+let forTxt=document.querySelector("#txt")
+console.log(forTxt); //Output:
+
+
+//3-with selector
+//HTML
+
+<h1>Text in HTML</h1>
+
+//JS
+let forTxt=document.querySelector("h1")
+console.log(forTxt); //Output:
+```
