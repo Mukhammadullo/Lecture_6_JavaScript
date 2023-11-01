@@ -72,3 +72,18 @@ txt.style.color="red"
 //output: h1->color red
 ```
 
+> ## _Events in JavaScript-A JavaScript can be executed when an event occurs, like when a user clicks on an HTML element.To execute code when a user clicks on an element, add JavaScript code to an HTML event attribute:_
+
+```js
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript HTML Events</h2>
+<h2 onclick="this.innerHTML='Hello!'">Click on this text!</h2>
+
+</body>
+</html>
+
+```
+
