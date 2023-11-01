@@ -84,6 +84,49 @@ txt.style.color="red"
 
 </body>
 </html>
+```
+
+## _appendchild() && append-The appendChild() method appends a node (element) as the lastchild of an element.appendChild() adds a node to the end of the list of children of the specified parent node. If the given child element is a reference to an existing node in the document, then the appendChild() function moves it from its current position to the new position_
+```js
+// HTML: <div id="myDiv" class="foo bar"></div>
+
+const element = document.getElementById('myDiv');
+
+element.classList.add('baz'); // Adds 'baz' class to the element
+element.classList.remove('foo'); // Removes 'foo' class from the element
+element.classList.toggle('bar'); // Toggles 'bar' class (removes it in this case)
+console.log(element.classList.contains('baz')); // Outputs: true
+console.log(element.classList.item(0)); // Outputs: 'baz'
+console.log(element.classList.length); // Outputs: 2
 
 ```
 
+## _ClassListIn JavaScript, the classList is a property of an HTML element that represents a collection of all the classes assigned to that element. It provides methods to manipulate the classes of an element easily. The classList property is an instance of the DOMTokenList interface._
+> * add(className): Adds the specified class to the element's class list.
+> * remove(className): Removes the specified class from the element's class list.
+> * toggle(className): Toggles the presence of the specified class in the element's class list. If the class is present, it is removed; otherwise, it is added.
+> * contains(className): Checks if the element's class list contains the specified class and returns a boolean value indicating the result.
+> * item(index): Returns the class name at the specified index in the element's class list.
+> * length: Returns the number of classes in the element's class list.
+```js
+// HTML: <div id="myDiv" class="foo bar"></div>
+
+const element = document.getElementById('myDiv');
+
+element.classList.add('baz'); // Adds 'baz' class to the element
+element.classList.remove('foo'); // Removes 'foo' class from the element
+element.classList.toggle('bar'); // Toggles 'bar' class (removes it in this case)
+console.log(element.classList.contains('baz')); // Outputs: true
+console.log(element.classList.item(0)); // Outputs: 'baz'
+console.log(element.classList.length); // Outputs: 2
+
+```
+
+# _What is BOM?_
+> _The Browser Object Model (BOM) There are no official standards for the Browser Object Model (BOM)._
+>_The Window Object_
+> * The window object is supported by all browsers. It represents the browser's window.
+> * All global JavaScript objects, functions, and variables automatically become members of the window object.
+> * Global variables are properties of the window object.
+> * Global functions are methods of the window object.
+> * Even the document object (of the HTML DOM) is a property of the window object: 
