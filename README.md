@@ -22,7 +22,7 @@
 
 //JS
 let forTxt=document.querySelector(".txt")
-console.log(forTxt); //Output:
+console.log(forTxt); //Output: *Element from HTML
 
 
 //2-with idName
